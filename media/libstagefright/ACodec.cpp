@@ -4329,7 +4329,6 @@ status_t ACodec::setupAVCEncoderParameters(const sp<AMessage> &msg) {
         }
 #endif
     }
-#endif
 
     ALOGI("setupAVCEncoderParameters with [profile: %s] [level: %s]",
             asString(h264type.eProfile), asString(h264type.eLevel));
